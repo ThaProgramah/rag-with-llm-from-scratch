@@ -23,7 +23,7 @@ class MessageTemplate(BaseModel):
 
 class Agent:
     def __init__(self, tools=None):
-        self.llm_path = r"C:\Users\mpauk\Desktop\python_programming\llm_rag\venv\models\mistral-7b-instruct-v0.2.Q6_K.gguf"
+        self.llm_path = r"path/to/your/llm/.../folder/mistral-7b-instruct-v0.2.Q6_K.gguf"
         self.messages = []
         self.tools = tools if tools is not None else ""
 
