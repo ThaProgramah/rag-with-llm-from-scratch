@@ -9,6 +9,12 @@ from typing import Literal, List, Dict, NotRequired
 
 #--------------------------------------------------------------------------------------------------------------
 
+# External Libraries here
+
+from duckduckgo_search import DDGS
+
+#--------------------------------------------------------------------------------------------------------------
+
 class FunctionProperty(BaseModel):
     type: str
     description: str
@@ -97,7 +103,5 @@ class FunctionExtraction:
 
             function_template = function_head.model_dump_json()
             tool_list.append(function_template)
-            #pprint(tool_list)
 
         return tool_list
-
