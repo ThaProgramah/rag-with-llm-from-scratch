@@ -4,7 +4,7 @@ Copyright (C) 2024, m.pauksch83@gmail.com - All Rights Reserved
  *
  * Unauthorized copying of this file, via any medium is strictly prohibited
  * Proprietary and confidential
- * Written by Marco Pauksch m.pauksch83@gmail.com, 04.09.2024
+ * Written by Marco Pauksch, m.pauksch83@gmail.com, 04.09.2024
 
  * This source code is protected under international copyright law.  All rights
  * reserved and protected by the copyright holders.
